@@ -4,7 +4,7 @@
 
 It is known that annelids have a great ability to regeneration. However, in some families, the patterns of regeneration depends on the site where it occurs. Thus, annelids from the family Nereididae are able to restore the posterior end of the body, but are not capable of restoring the anterior end. Another family of annelids, Spionidae, successfully restores both the anterior and posterior ends of the body.
 
-Possible explanations for this phenomenon can be provided by a comparative analysis of differential gene expression in the sites of regeneration. In this small project we tried to analise transcriptomic data from six time points after regeneration starts in two species of annelids: *Platynereis dumerilii* (Nereididae) and *Pygospio elegans* (Spionidae).
+Possible explanations for this phenomenon can be provided by a comparative analysis of differential gene expression in the sites of regeneration. In this small project we tried to analyze transcriptomic data from six time points after regeneration starts in two species of annelids: *Platynereis dumerilii* (Nereididae) and *Pygospio elegans* (Spionidae).
 
 ## Aim and tasks
 
@@ -17,7 +17,7 @@ Possible explanations for this phenomenon can be provided by a comparative analy
 
 ## Methods
 
-For this project we used 48 *de novo* assembled transcriptomes from posterior and anterior regeneration sites for six time points in two species (two replics for each time point). We analised gene raw counts after [Salmon](https://combine-lab.github.io/salmon/) quantification tool (v. 1.1.0).
+For this project we used 48 *de novo* assembled transcriptomes from posterior and anterior regeneration sites for six time points in two species (two replics for each time point). We analyzed gene raw counts after [Salmon](https://combine-lab.github.io/salmon/) quantification tool (v. 1.1.0).
 
 The differential expression of genes was estimated with [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) R package (v. 1.34.0). We used method for time series analysis based on representation time series as continuous function (described in [Fischer et al, 2018](https://doi.org/10.1093/nar/gky675)). Additional analysis and graphs was provided with R (v. 4.2.0). R scripts are available for separate site analysis and for both sites together (files `Deseq2_analysis_single_site.R` and `Deseq2_analysis_both_sites.R` resp.)
 
