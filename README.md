@@ -19,14 +19,17 @@ Possible explanations for this phenomenon can be provided by a comparative analy
 
 For this project we used 48 *de novo* assemblied transcriptomes from pasterior and anterior regeneration sites for six time points in two species (two replics for each time point). We analised gene raw counts after [Salmon](https://combine-lab.github.io/salmon/) quantification tool (v. 1.1.0).
 
-The differential expression of genes was estimated with [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) R package (v. 1.34.0). We used method for time series analysis based on representation time series as continuous function (described in [Fischer et al, 2018](https://doi.org/10.1093/nar/gky675)). Additional analysis and graphs was provided with R (v. 4.2.0). R scripts are available for separate site analysis and for both sites together (files Deseq2_analysis_single_site.R and Deseq2_analysis_both_sites.R resp.)
+The differential expression of genes was estimated with [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) R package (v. 1.34.0). We used method for time series analysis based on representation time series as continuous function (described in [Fischer et al, 2018](https://doi.org/10.1093/nar/gky675)). Additional analysis and graphs was provided with R (v. 4.2.0). R scripts are available for separate site analysis and for both sites together (files `Deseq2_analysis_single_site.R` and `Deseq2_analysis_both_sites.R` resp.)
 
 ## Results
 
 4085 out of 28515 genes showed differential expression in *Platynereis dumerilii* as a result of DESeq2 analysis using regeneration site as condition: 1612 was overexpressed and 2473 was downexpressed.
 
+![](Pdum_spline_acc_both.jpg)
 
 And only 465 out of 30043 genes showed differential expression in *Pygospio elegans* in the same analysis: 172 overexpressed and 293 downexpressed.
+
+![](Pele_spline_acc_both.jpg)
 
 Exploratory data analysis showed, that two points of *P. elegans* transcriptomes differs greately from other and may be outliers.
 
