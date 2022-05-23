@@ -2,7 +2,7 @@
 
 ## Introduction
 
-It is known that annelids have a great ability to regeneration. However, in some families, the patterns of regeneration depends on the site where it occurs. Thus, annelids from the family Nerididae are able to restore the posterior end of the body, but are not capable of restoring the anterior end. Another family of annelids, Spionidae, successfully restores both the anterior and posterior ends of the body.
+It is known that annelids have a great ability to regeneration. However, in some families, the patterns of regeneration depends on the site where it occurs. Thus, annelids from the family Nereididae are able to restore the posterior end of the body, but are not capable of restoring the anterior end. Another family of annelids, Spionidae, successfully restores both the anterior and posterior ends of the body.
 
 Possible explanations for this phenomenon can be provided by a comparative analysis of differential gene expression in the sites of regeneration. In this small project we tried to analise transcriptomic data from six time points after regeneration starts in two species of annelids: *Platynereis dumerilii* (Nereididae) and *Pygospio elegans* (Spionidae).
 
