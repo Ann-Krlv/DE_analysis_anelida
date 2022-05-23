@@ -49,7 +49,7 @@ The DE analysis sites as separate data detect much more DE genes. The results an
 
 ## Conclusions
 
-We find out genes that shows differential expression in two species of annelids. The further analysis e.g. annotation, expression clustering, search for orthologs had already done before this project starts. However, we were not able to obtain meaningful results from them.
+We found out genes that shows differential expression in two species of annelids. The further analysis e.g. annotation, gene expression clustering, search for orthologs had already done before this project starts. However, we were not able to obtain meaningful results from them.
 
 ## References
 
