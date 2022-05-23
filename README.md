@@ -25,10 +25,17 @@ The differential expression of genes was estimated with [DESeq2](https://biocond
 
 4085 out of 28515 genes showed differential expression in *Platynereis dumerilii* as a result of DESeq2 analysis using regeneration site as condition: 1612 was overexpressed and 2473 was downexpressed.
 
+
 And only 465 out of 30043 genes showed differential expression in *Pygospio elegans* in the same analysis: 172 overexpressed and 293 downexpressed.
 
 Exploratory data analysis showed, that two points of *P. elegans* transcriptomes differs greately from other and may be outliers.
 
+PCA plot for *P. elegans*| PCA plot for *P. dumerilii*
+-|-
+![](PCA_Pele.png) | ![](PCA_Pdum.png)
+
+*Site - site of regeneration<br>
+TPA - time post amputation (hours)*
 
 ## References
 
