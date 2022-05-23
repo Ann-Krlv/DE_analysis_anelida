@@ -23,15 +23,7 @@ The differential expression of genes was estimated with [DESeq2](https://biocond
 
 ## Results
 
-4085 out of 28515 genes showed differential expression in *Platynereis dumerilii* as a result of DESeq2 analysis using regeneration site as condition: 1612 was overexpressed and 2473 was downexpressed.
-
-![](Pdum_spline_acc_both.jpg)
-
-And only 465 out of 30043 genes showed differential expression in *Pygospio elegans* in the same analysis: 172 overexpressed and 293 downexpressed.
-
-![](Pele_spline_acc_both.jpg)
-
-Exploratory data analysis showed, that two points of *P. elegans* transcriptomes differs greately from other and may be outliers.
+Exploratory data analysis showed, that two points of *P. elegans* transcriptomes (both are 12h time points) differs greately from other.
 
 PCA plot for *P. elegans*| PCA plot for *P. dumerilii*
 -|-
@@ -39,6 +31,25 @@ PCA plot for *P. elegans*| PCA plot for *P. dumerilii*
 
 *Site - site of regeneration<br>
 TPA - time post amputation (hours)*
+
+Pairwise correlation plot for *P. elegans*| Pairwise correlation plot for *P. dumerilii*
+-|-
+![](Corplot_Pele.png) | ![](Corplot_Pdum.png)
+
+
+4085 out of 28613 genes showed differential expression in *Platynereis dumerilii* as a result of DESeq2 analysis using regeneration site as condition: 1612 was overexpressed and 2473 was downexpressed.
+
+![](Pdum_spline_acc_both.jpg)
+
+And only 465 out of 31225 genes showed differential expression in *Pygospio elegans* in the same analysis: 172 overexpressed and 293 downexpressed.
+
+![](Pele_spline_acc_both.jpg)
+
+The DE analysis sites as separate data detect much more DE genes. The results and graphs for separate sites can be found in `additional_graphs` folder.
+
+## Conclusions
+
+We find out genes that shows differential expression in two species of annelids. The further analysis e.g. annotation, expression clustering, search for orthologs had already done before this project starts. However, we were not able to obtain meaningful results from them.
 
 ## References
 
